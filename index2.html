@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('portfolio')">Portfolio</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('services')">Services</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="section">
+        <div class="welcome-content">
+            <h1>Welcome to My Personal Portfolio</h1>
+            <img src="https://pbs.twimg.com/profile_images/727053878978449408/rHgoO6Za_200x200.jpg" alt="Profile Picture" class="profile-img-small">
+            <p>Hi,I'm Jyothi Bai</p>
+            <h2>My Skills</h2>
+            <p>HTML,CSS,JavaScript</p>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="section" style="display:none;">
+        <div class="content">
+            <h2>Portfolio</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="Tasks/Task-1.jpg" alt="Task-1">
+                    <h3>Task-1</h3>
+                    <p>Responsive Landing Page.</p>
+                </div>
+                <div class="project">
+                    <img src="Tasks/Task-2.jpg" alt="Task-2">
+                    <h3>Task-2</h3>
+                    <p>Stopwatch Web Application.</p>
+                </div>
+                <div class="project">
+                    <img src="Tasks/Task-3.jpg" alt="Task-3">
+                    <h3>Task-3</h3>
+                    <p>Tic-Tac-Toe Web application.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="section" style="display:none;">
+        <div class="content">
+            <h2>About Me</h2>
+            <p> Hi,I'm Jyothi Bai,I am a web developer with a passion for creating engaging and efficient websites.</p>
+            <p>With a strong background in computer science and hands-on experience in various projects,</p>
+            <p>I have developed a diverse skill set that includes HTML,CSS,JavaScript.</p><br></br>
+            <h2>Education</h2>
+            <p>I am currently pursuing B.Tech 2nd year in Computer Science engineering at VVIT</p><br></br>
+            <h2>Professional Experience</h2>
+            <p>Student at VVIT Guntur.</p>
+            <p>Batch: 2022-2026</p>
+        </div>
+    </section>
+    
+    <section id="services" class="section" style="display:none;">
+        <div class="content">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Description of your web development services.</p>
+                </div>
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>Description of your design services.</p>
+                </div>
+                <div class="service">
+                    <h3>Consulting</h3>
+                    <p>Description of your consulting services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section" style="display:none;">
+        <div class="content">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+           </div>
+           <br></br>
+        <footer>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>
+    </section>
+    
+    
+    <script src="script2.js"></script>
+</body>
+</html>
