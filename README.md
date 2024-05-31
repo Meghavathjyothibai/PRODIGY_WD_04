@@ -22,4 +22,4 @@ This portfolio website is designed to highlight my professional background, incl
 
   ## Link of the Project:https://github.com/Meghavathjyothibai/PRODIGY_WD_04
 
-  ## Screenshot of thw Websie:
+  ## Screenshot of the Websie:
